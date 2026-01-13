@@ -113,12 +113,7 @@ def store_customer_data(customer):
         customer['email'],  # Plaintext
         customer['balance'],  # Plaintext
         customer['is_vulnerable'],  # Special category data
-        customer['vulnerability_type']  # Special category data - CRITICAL
-    ))
-    
-    conn.commit()
-    conn.close()
-
+        custome
 
 # ============================================================================
 # VULNERABILITY 4: SQL Injection (SYSC 3.2.6R, SYSC 4.1)
